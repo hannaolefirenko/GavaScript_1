@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // let userName ='John';
 // let userNumber = 25;
@@ -127,27 +127,51 @@
 // console.log(answers);
 // document.write(answers);
 
-const category = "toys";
+// const category = "toys";
 
-console.log(`http://someurl.com/` + category + "/" + "4");
+// console.log(`http://someurl.com/` + category + "/" + "4");
 
-console.log(``); // ІНТЕРПОЛЯЦІЯ ЗІ ЗВОРОТНИМИ КАВИЧКАМИ
-
-
-const user = "Nataliia";
-alert(`Helo $(user)`);
-
-// ОПЕРАТОРИ (- - * /)
-
-console.log(2 + "4"); // = 24
-console.log(2 + 4); // = 6
+// console.log(``); // ІНТЕРПОЛЯЦІЯ ЗІ ЗВОРОТНИМИ КАВИЧКАМИ
 
 
-let number = 4;
-// ++ це +1 інкремент
-// -- це -1 декремент
+// const user = "Nataliia";
+// alert(`Helo $(user)`);
 
-console.log(number++); // це те ж саме що 4+1 -- це інкремент =4
-console.log(number); // = 5
-console.log(++number); // = 6
-console.log(number--); // це те ж саме що 4-1 -- це декремент
+// // ОПЕРАТОРИ (- - * /)
+
+// console.log(2 + "4"); // = 24
+// console.log(2 + 4); // = 6
+
+
+// let number = 4;
+// // ++ це +1 інкремент
+// // -- це -1 декремент
+
+// console.log(number++); // це те ж саме що 4+1 -- це інкремент =4
+// console.log(number); // = 5
+// console.log(++number); // = 6
+// console.log(number--); // це те ж саме що 4-1 -- це декремент
+
+// TASK 1
+
+let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genress: [],
+    privat: false
+};
+
+let a = prompt("Один з останніх переглянутих фільмів", "");
+let b = prompt("На скільки оціните його?", "");
+let c = prompt("Один з останніх переглянутих фільмів", "");
+let d = prompt("На скільки оціните його?", "");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+// personalMovieDB.movies.hello = d;
+
+console.log(personalMovieDB);
