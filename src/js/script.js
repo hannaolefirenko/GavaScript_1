@@ -154,24 +154,98 @@
 
 // TASK 1
 
-let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
+// let numberOfFilms = prompt("Скільки фільмів ви вже подивилися?", "");
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genress: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genress: [],
+//     privat: false
+// };
 
-let a = prompt("Один з останніх переглянутих фільмів", "");
-let b = prompt("На скільки оціните його?", "");
-let c = prompt("Один з останніх переглянутих фільмів", "");
-let d = prompt("На скільки оціните його?", "");
+// let a = prompt("Один з останніх переглянутих фільмів", "");
+// let b = prompt("На скільки оціните його?", "");
+// let c = prompt("Один з останніх переглянутих фільмів", "");
+// let d = prompt("На скільки оціните його?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-// personalMovieDB.movies.hello = d;
+// // personalMovieDB.movies.hello = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
+
+
+
+
+// 12.02.24 REPEAT IF - TASK
+
+// if (1) {
+//     console.log("Ok!");
+// } else {
+//     console.log ("GoodBye!");
+// };
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log("Error!");
+// } else if (num > 100) {
+//     console.log("Much!");
+// } else {
+//     console.log("Ok!");
+// }
+
+// // Tернарний оператор
+
+// // умова? дія, якщо true : дія, якщо false
+// // true or false      if true           if false
+// (num === 50) ? console.log("Okay") : console.log("Error!");
+
+
+const num = 101;
+
+switch (num) {
+    case 49:
+        console.log("Error!");
+        break;
+    case 100:
+        console.log("Not enought");
+        break;
+    case 101:
+        console.log("Great!");
+        break;
+    default:
+        console.log("Not at this time!");
+        break;
+}
+
+// && - ОПЕРАТОР "і"
+
+// const burger = true;
+// const cola = true;
+
+// if (burger && cola) {
+//     console.log("let's have a break");
+// } else {
+//     console.log("continue...");
+// }
+
+
+// "||" - ОПЕРАТОР або/или
+
+// const burger1 = true;
+// const burger2 = false;
+// const cola1 = true;
+// const cola2 = false;
+
+// if (burger1 || cola1) {
+//     console.log("let's have a break");
+// } else if (burger2 || cola2) {
+//     console.log("error");
+// } else {
+//     console.log("continue...");
+// }
+
+console.log("2" > "12");
