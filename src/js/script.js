@@ -204,22 +204,22 @@
 // (num === 50) ? console.log("Okay") : console.log("Error!");
 
 
-const num = 101;
+// const num = 101;
 
-switch (num) {
-    case 49:
-        console.log("Error!");
-        break;
-    case 100:
-        console.log("Not enought");
-        break;
-    case 101:
-        console.log("Great!");
-        break;
-    default:
-        console.log("Not at this time!");
-        break;
-}
+// switch (num) {
+//     case 49:
+//         console.log("Error!");
+//         break;
+//     case 100:
+//         console.log("Not enought");
+//         break;
+//     case 101:
+//         console.log("Great!");
+//         break;
+//     default:
+//         console.log("Not at this time!");
+//         break;
+// }
 
 // && - ОПЕРАТОР "і"
 
@@ -248,4 +248,102 @@ switch (num) {
 //     console.log("continue...");
 // }
 
-console.log("2" > "12");
+// console.log("continue...");
+
+// ЗАЛИШОК ВІД ДІЛЕННЯ
+
+// console.log(5%2);
+
+// let num = +prompt("Введіть парне число", "");
+
+// if (num % 2 === 0) {
+//     console.log(true);
+// };
+
+// let num = +prompt("Введіть число", "");
+
+// if (num%2 === 0) {
+//     console.log("Ви ввели парне число");
+// } else {
+//     console.log("Ви ввели НЕпарне число");
+// };
+
+
+// let num = +prompt("Введіть свій вік", "");
+
+// if (num >= 18) {
+//     console.log("Вітаю, ви - повнолітня особа!");
+// } else {
+//     console.log("До побачення!");
+// };
+
+
+// let a = 2;
+// let b = 3;
+// console.log(b > a);
+
+// let num1 = +prompt("Введіть перше число", "");
+// let num2 = +prompt("Введіть друге число", "");
+
+// if (num1 > num2) {
+//     console.log(num1 + " більше, ніж " + num2);
+//     //або  console.log("${num1} більше ніж ${num2}");
+// } else if (num2 > num1) {
+//     console.log(num2 + " більше, ніж " + num1);
+// } else if (num2 === num1) {
+//     console.log("Значення рівні");
+// } else {
+//     console.log("Error");
+// };
+
+// let validLogin = "user123";
+// let validPassword = "qwerty"
+
+
+// let validLogin = prompt("Введіть логін", "");
+// let validPassword = prompt("Введіть пароль", "");
+
+// if (validLogin === "user123" && validPassword === "qwerty") {
+//     console.log("Логін та пароль вірні ");
+// } else {
+//     console.log("Error. Логін або пароль введено невірно. Спробуйте ще раз.");
+// };
+
+
+
+
+
+// 16.02.24 TASK TASK
+
+// const hamburger = 33;
+// const fries = 13;
+// const cola = 16;
+
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log("Поїли!");
+// } else {
+//     console.log("Пішли додому!");
+// };
+
+// console.log(1 && 0); // = 0
+// console.log(1 && 8); // = 8
+// console.log(null && 5); // = null
+// console.log(0 && "dfghjkl"); // = 0
+
+// const hamburger = 33;
+// const fries = 13;
+// const cola = 16;
+
+// console.log(hamburger && cola && fries);
+
+const hamburger = 0;
+const fries = undefined;
+const cola = 2;
+const nuggets = 5;
+
+
+if (hamburger === 0 && nuggets === 5 || nuggets  && cola === 2 && fries)  {
+    console.log('Поїли!');
+} else {
+    console.log('Пішли додому!');
+};
