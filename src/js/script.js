@@ -336,14 +336,118 @@
 
 // console.log(hamburger && cola && fries);
 
-const hamburger = 0;
-const fries = undefined;
-const cola = 2;
-const nuggets = 5;
+// const hamburger = 0;
+// const fries = undefined;
+// const cola = 2;
+// const nuggets = 5;
 
 
-if (hamburger === 0 && nuggets === 5 || nuggets  && cola === 2 && fries)  {
-    console.log('Поїли!');
-} else {
-    console.log('Пішли додому!');
+// if (hamburger === 0 && nuggets === 5 || nuggets  && cola === 2 && fries)  {
+//     console.log('Поїли!');
+// } else {
+//     console.log('Пішли додому!');
+// };
+
+
+
+// LOOPS (Цикл)
+
+// first loop
+// let num = 50; // = 51
+
+// while(num <= 55) {
+//     console.log(num);
+//     num++ //num = num + 1
+// };
+
+// second
+// let num = 50;
+
+// do {
+//     console.log(num);
+//     num++ //num = num + 1
+// };
+// while(num < 55);
+
+//third
+// let num = 50;
+
+// for(let i = 1; i < 8; i++) {
+//     console.log(`Ми ходили в театр ${i} разів`);
+// };
+
+// for(let i = 1; i < 9; i++) {
+//     if(i === 6 || i === 7) {
+//         break;
+//     }
+//     console.log(`Ми ходили в театр ${i} разів`);
+// };
+
+// for(let i = 1; i <= 28; i++) {
+//     if(i === 6 || i === 7) {
+//         continue;
+//     }
+//     console.log(`Ми ходили в театр ${i} разів`);
+// };
+
+// ТРЕНУВАННЯ
+// for (let i = 1; i <= 3; i++) {
+//     console.log(`"i" тренування № ${i}`);
+//     for (let j = 1; j <= 3; j++) {
+//         console.log(`"j" вправа № ${j}`);
+//     }
+// };
+
+// // ЯЛИНКА
+// let result = "";
+// const length = 8; // або 50
+
+// for(let i = 1; i <= length; i++) {
+//     for(let j = 0; j < i; j++) {
+//         result += "*"
+//     }
+//     result += "\n";
+// };
+
+// console.log(result);
+
+// Завдання 1
+// let num = 5; // = 51
+
+// while(num <= 10) {
+//     console.log(num);
+//      num++ //num = num + 1
+// };
+
+// for(let i = 5; i < 11; i++) {
+//     console.log(i)
+// }
+
+// Завдання 2
+// for(let i = 20; i >= 10; i--) {
+//     if(i === 13) {
+//         break;
+//     }
+//     console.log(i);
+// };
+
+// Завдання 3
+// for(let i = 2; i < 11; i++) {
+//     if(i%2 === 0)
+//     console.log(i);
+// };
+
+// Завдання 4
+let i = 2;
+
+while(i <= 16) {
+    if(i % 2 === 0) {
+        i++;
+        continue
+    } else {
+        console.log(i)
+    }
+    i++;
 };
+
+
